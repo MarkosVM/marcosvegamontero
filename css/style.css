@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  /*margin-top: 83px;*//* Relleno superior igual a la altura de la cabecera*/
+}
+
+#footerStyle{
+	position: absolute;
+	bottom: 0;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.tituloPrin{
+	color: white;
+}
+#title1{
+	font-size: 100px;
+}
+#title2{
+	font-size: 30px;
+}
+#btnContact{
+	text-decoration: none;
+	background-color: transparent;
+	border-color: #04ebde;
+	border-style: solid;
+	border-width: 2px;
+	color: white;
+	padding: 5px 70px 5px 70px;
+	font-size: 23px;
+}
+#btnContact:hover{
+	border-color: #03b8ad;
+}
+
+#navStyle > li > a{
+	color: #04ebde;
+	font-size: 30px;
+}
+#navStyle > li > a:hover{
+	color: #03b8ad;
+}
+
+#navStyle2 > li{
+	list-style: none;
+	display: inline-block;
+}
+#navStyle2 > li > a{
+	color: #04ebde;
+	font-size: 30px;
+	text-decoration: none;
+}
+#navStyle2 > li > a:hover{
+	color: #03b8ad;
+}
+
+#tituloPrin{
+  color: white;
+  font-size: 50px;
+}
+.grow:hover
+{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+#conocimientos{
+	margin-top: 2%;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+.frmInput {
+    display: inline-block;
+    width: 45%;
+    height: 50px;
+    margin: 1%;
+    background: transparent;
+    text-decoration: none;
+    color: #FFF;
+    border-color: none;
+}
+.frmInput:focus{
+  border-color: green;
+}
+#txtArea{
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  resize: none;
+  background: transparent;
+  color: #FFF;
+}
+#btnSub{
+  color: #FFF;
+  background: transparent;
+  border-color: #FFF;
+  transition: 0.5s;
+}
+#btnSub:hover{
+  border-color: green;
+  color: green;
+  transition: 0.5s;
+}
+.caracteres{
+	color: #04ebde;
+}
+canvas{
+  display:block;
+  position: absolute;
+  vertical-align:bottom;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+#popupBody{
+	color: white;
+    width: 50%;
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: 0 0 3px #04ebde;
+    background: #171f34;
+    position: relative;
+    transition: all 5s ease-in-out;
+    margin: 10% auto;    
+}
+#cerrar{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #04ebde;
+}
