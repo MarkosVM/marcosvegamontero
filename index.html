@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Marcos Vega Montero</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="author" content="Marcos Steven Vega Montero">
+	<meta name="description" content="Soy ingeniero informático que se dedica al desarrollo de software. Ofresco mis servicios profesionales a través de mi página personal, para más información contactame enviandome un correo electronico.">
+	<meta name="keywords" content="Marcos vega montero, paginas web, mi pagina web, crear pagina web, mvm, forexcrc, desarrollo, software, Costa Rica">
+	<meta property="og:image" content="img/logo/logoLetras.PNG">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/anclasScript.js"></script>
+
+	<script src="https://kit.fontawesome.com/e9243b6a52.js" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/png" href="img/favicon/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway:300,100' rel='stylesheet' type='text/css'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/0.11.9/jquery.velocity.min.js"></script>
+</head>
+
+<body style="background-color: #171f34">
+	<div id="particles-js"></div>
+	<!--INICIO DE MENU-->
+	<div style="text-shadow: 2px 2px 4px #000000;">
+		<div class="container" style="margin-bottom: 1%;">
+			<div class="row">
+				<div class="col-md-12">
+						<ul class="nav justify-content-end" id="navStyle">
+						  <li class="nav-item">
+						    <a class="nav-link" href="index.html"><i class="fas fa-user-circle grow"></i></a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#"><i class="fas fa-info-circle grow"></i></a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#"><i class="fas fa-laptop-code grow"></i></a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#contacto"><i class="fas fa-envelope grow"></i></a>
+						  </li>
+						</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--FIN DE MENU-->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 tituloPrin">
+				<p id="title1">HOLA, <span style="font-size: 50px;">SOY MARCOS</span></p>
+				<p id="title2">INGENIERO INFORMÁTICO</p>
+				<a id="btnContact" href="#contacto" class="grow">CONTACTAR</a>
+			</div>
+		</div>
+	</div>
+
+		<div class="container">
+		<div class="row">
+			<div class="col-md-9"></div>
+			<div class="col-md-3" id="conocimientos">
+				<p>
+					<span class="caracteres">&#123</span>
+
+					<br> <span class="caracteres">&#34</span>CONOCIMIENTOS<span class="caracteres">&#58</span><span class="caracteres">&#34</span>
+						<span class="caracteres">&#91</span> <br>
+						<span class="caracteres">&#34</span>ANGULAR<span class="caracteres">&#34</span> <br>
+						<span class="caracteres">&#34</span>C#<span class="caracteres">&#34</span> <br>
+						<span class="caracteres">&#34</span>JAVA<span class="caracteres">&#34</span> <br>
+						<span class="caracteres">&#34</span>HTML5<span class="caracteres">&#34</span> <br>
+						<span class="caracteres">&#34</span>CSS<span class="caracteres">&#34</span> <br>
+						<span class="caracteres">&#34</span>BOOTSTRAP<span class="caracteres">&#34</span> <br>
+						<span class="caracteres">&#34</span>ASP.NET<span class="caracteres">&#34</span> <br>
+						<span class="caracteres">&#34</span>SQL SERVER<span class="caracteres">&#34</span> <br>
+						<span class="caracteres">&#34</span>MYSQL<span class="caracteres">&#34</span> <br>
+						<span class="caracteres">&#34</span>POO<span class="caracteres">&#34</span> <br>
+						<span class="caracteres">&#34</span>MVC<span class="caracteres">&#34</span> <br>
+						<span class="caracteres">&#93</span>
+						<br> <span class="caracteres">&#123</span>
+				</p>
+			</div>
+		</div>
+	</div>
+		<!--FORMULARIO CONTACTO-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="contacto" class="overlay">
+			            <div id="popupBody">
+			            	<center>
+			                <h2>CONTACTO</h2>
+			                </center>
+			                <a id="cerrar" href="#">&times;</a>
+				                <div class="popupContent">
+				                	<center>
+				                    <form name="frmContacto" method="post" action="sendbyemail.php">
+										<div class="form-group col-md-5">		
+											<input type="text" name="nombre" class="form-control col-md-12 frmInput" placeholder="Nombre" required data-validation-required-message="POR FAVOR DIGITE SU NOMBRE">
+											
+											<input type="text" name="apellido" class="form-control col-md-12 frmInput" placeholder="Apellido" required data-validation-required-message="POR FAVOR DIGITE SU APELLIDO">
+								
+											<input type="email" name="email" class="form-control col-md-12 frmInput" placeholder="Email" required data-validation-required-message="POR FAVOR DIGITE SU CORREO ELECTRONICO">
+									
+											<input type="tel" name="telefono" class="form-control col-md-12 frmInput" placeholder="Teléfono" required data-validation-required-message="POR FAVOR DIGITE SU NUMERO DE TELEFONO">
+										</div>
+										<div class="col-md-5">
+											<textarea id="txtArea" type="text" name="mensaje" class="form-control col-md-12" maxlength="800" placeholder="Digíte el mensaje a enviar" required data-validation-required-message="POR FAVOR DIGITE EL MENSAJE A ENVIAR"></textarea>
+										</div>
+											<div class="col-md-5 text-center" style="margin-top: 2%">
+												<input id="btnSub" type="submit" class="btn text-center" value="ENVIAR">
+											</div>
+										</form>
+										</center>
+								</div>
+			                </div>
+			            </div>
+			        </div>
+				</div>
+			</div>
+		</div>
+        <!--FIN FORMULARIO-->
+
+	<footer id="footerStyle">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul id="navStyle2">
+						<li class="nav-item">
+						    <a class="nav-link" href="https://www.facebook.com/mvmsoftwaredeveloper/"><i class="fab fa-facebook-f grow"></i></a>
+						  </li>
+						  	<li class="nav-item">
+						    <a class="nav-link" href="https://www.instagram.com/markos_vm/"><i class="fab fa-instagram grow"></i></a>
+						  </li>
+						  	<li class="nav-item">
+						    <a class="nav-link" href="https://www.linkedin.com/in/marcosvegamontero/"><i class="fab fa-linkedin-in grow"></i></a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="https://wa.me/50687999391"><i class="fab fa-whatsapp grow"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/particles.js"></script>
+	<script src="js/app.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
